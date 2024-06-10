@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="">
+    <title>LIUHAN</title>
+    <link rel="stylesheet" href="static/css/fontawesome.min.css">
+    <link rel="stylesheet" href="static/css/ionicons.min.css">
+    <link rel="stylesheet" href="static/css/simple-line-icons.css">
+    <link rel="stylesheet" href="static/css/jquery-ui.min.css">
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/plugins.css">
+    <link rel="stylesheet" href="static/css/style.min.css">
+</head>
+
+<body>
+<header>
+
+  <div class="header-top theme1 bg-dark py-15">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 col-sm-6 order-last order-sm-first">
+          <div class="d-flex justify-content-center justify-content-sm-start align-items-center">
+            <div class="social-network2">
+              <ul class="d-flex">
+                <li>
+                  <a href="javascript:;" target="_blank"><span
+                          class="icon-social-facebook"></span></a>
+                </li>
+                <li>
+                  <a href="javascript:;" target="_blank"><span class="icon-social-twitter"></span></a>
+                </li>
+                <li>
+                  <a href="javascript:;" target="_blank"><span class="icon-social-youtube"></span></a>
+                </li>
+                <li class="mr-0">
+                  <a href="javascript:;" target="_blank"><span
+                          class="icon-social-instagram"></span></a>
+                </li>
+              </ul>
+            </div>
+            <div class="media static-media ms-4 d-flex align-items-center">
+              <div class="media-body">
+                <div class="phone">
+                  <a href="tel:(+123)4567890" class="text-white"><i class="icon-call-out me-1"></i>
+                    (+123)4567890</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-6">
+          <nav class="navbar-top pb-2 pb-sm-0 position-relative">
+            <ul class="d-flex justify-content-center justify-content-md-end align-items-center">
+              <li>
+                <a href="#" id="dropdown1" data-bs-toggle="dropdown" aria-haspopup="true"
+                   aria-expanded="false">Setting <i class="ion ion-ios-arrow-down"></i></a>
+                <ul class="topnav-submenu dropdown-menu" aria-labelledby="dropdown1">
+
+                  <li><a href="login.html">Sign out</a></li>
+                </ul>
+              </li>
+
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- header top end -->
+  <!-- header-middle satrt -->
+  <div id="sticky" class="header-middle theme1 py-15 py-lg-0">
+    <div class="container position-relative">
+      <div class="row align-items-center">
+        <div class="col-6 col-lg-2 col-xl-2">
+          <div class="logo">
+            <a href=""><img src="static/picture/logo.png" alt="logo"></a>
+          </div>
+        </div>
+        <div class="col-xl-8 col-lg-7 d-none d-lg-block">
+          <ul class="main-menu d-flex justify-content-center">
+            <li class="active ml-0">
+              <a href="index.html" class="ps-0">Home </a>
+
+            </li>
+            <li class="position-static">
+              <a href="shop-grid-3-column.html">Shop </a>
+
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- header-middle end -->
+</header>
+<nav class="breadcrumb-section theme1 bg-lighten2 pt-110 pb-110">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="section-title text-center">
+          <h2 class="title pb-4 text-dark text-capitalize">login & register</h2>
+        </div>
+      </div>
+      <div class="col-12">
+        <ol class="breadcrumb bg-transparent m-0 p-0 align-items-center justify-content-center">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">
+            Log in to your account
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</nav>
+<div class="login-register-area pt-80 pb-80">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7 col-md-12 ms-auto me-auto">
+        <div class="login-register-wrapper">
+          <div class="login-register-tab-list nav">
+            <a class="active" data-bs-toggle="tab" href="#lg1">
+              <h4>login</h4>
+            </a>
+            <a data-bs-toggle="tab" href="#lg2">
+              <h4>register</h4>
+            </a>
+          </div>
+          <div class="tab-content">
+            <div id="lg1" class="tab-pane active">
+              <div class="login-form-container">
+                <div class="login-register-form">
+                  <form  action=""   onsubmit="return false" method="post">
+                    <input type="text" name="username" placeholder="Username" id="username" value="">
+                    <input type="password" name="password" placeholder="Password" id="password" value="">
+                    <div class="button-box">
+
+                      <button  class="btn btn-dark btn--md" id="login">
+                        <span>Login</span>
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div id="lg2" class="tab-pane">
+              <div class="login-form-container">
+                <div class="login-register-form">
+                  <form  action=""   onsubmit="return false"   method="post">
+                    <input type="text" name="user-name" placeholder="Username"  id="regusername" value="">
+                    <input type="password" name="user-password" placeholder="Password"  id="regpassword" value="">
+                    <input name="user-email" placeholder="Email" type="email" id="email" >
+                    <div class="button-box">
+                      <button  class="btn btn-dark btn--md" id="reg">
+                        <span>Register</span>
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="bg-light theme1 position-relative">
+  <div class="footer-bottom pt-80 pb-30">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-6 col-lg-4 mb-30">
+          <div class="footer-widget mx-w-400">
+            <div class="footer-logo mb-25">
+              <a href="index.html">
+                <img src="static/picture/logo.png" alt="footer logo">
+              </a>
+            </div>
+
+
+            <div class="social-network">
+              <ul class="d-flex">
+                <li>
+                  <a href="javascript:;" target="_blank"><span class="icon-social-facebook"></span></a>
+                </li>
+                <li>
+                  <a href="javascript:;" target="_blank"><span class="icon-social-twitter"></span></a>
+                </li>
+                <li>
+                  <a href="javascript:;" target="_blank"><span class="icon-social-youtube"></span></a>
+                </li>
+                <li class="mr-0">
+                  <a href="javascript:;" target="_blank"><span class="icon-social-instagram"></span></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-2 mb-30">
+          <div class="footer-widget">
+            <div class="border-bottom cbb1 mb-25">
+              <div class="section-title">
+                <h2 class="title">Information</h2>
+              </div>
+            </div>
+            <!-- footer-menu start -->
+            <ul class="footer-menu">
+              <li><a href="">About us</a></li>
+              <li><a href="#">payment</a></li>
+              <li><a href="">Contact us</a></li>
+              <li><a href="#">Stores</a></li>
+            </ul>
+            <!-- footer-menu end -->
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-2 mb-30">
+          <div class="footer-widget">
+            <div class="border-bottom cbb1 mb-25">
+              <div class="section-title">
+                <h2 class="title">social Links</h2>
+              </div>
+            </div>
+            <!-- footer-menu start -->
+            <ul class="footer-menu">
+              <li><a href="#">New products</a></li>
+              <li><a href="#">Best sales</a></li>
+              <li><a href="">Login</a></li>
+              <li><a href="">My account</a></li>
+            </ul>
+            <!-- footer-menu end -->
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4 mb-30">
+          <div class="footer-widget">
+            <div class="border-bottom cbb1 mb-25">
+              <div class="section-title">
+                <h2 class="title">Newsletter</h2>
+              </div>
+            </div>
+            <p class="text mb-20">
+              Subcribe to the TheFace mailing list to receive update on mnew
+              arrivals, special offers and other discount information.
+            </p>
+            <div class="nletter-form mb-35">
+              <form class="form-inline position-relative" action="#" target="_blank" method="post">
+                <input class="form-control" type="text" placeholder="Your email address">
+                <button class="btn news-letter-btn text-capitalize" type="submit">
+                  Sign up
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+<script src="./api/login.js"></script>
+<script src="./api/reg.js"></script>
+<script src="static/js/bootstrap.bundle.min.js"></script>
+</html>
